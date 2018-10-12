@@ -1,8 +1,9 @@
 class Dog
 attr_accessor :name
 
-def initialize
-bark
+def initialize(name)
+  @name = name
+   bark
 end
 
 def bark
